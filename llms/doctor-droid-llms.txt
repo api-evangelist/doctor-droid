@@ -1,0 +1,75 @@
+# DrDroid
+
+## Docs
+
+- [Agentic Debugging](https://docs.drdroid.io/agent/agentic-debugging.md)
+- [Alert Details](https://docs.drdroid.io/agent/alert-details.md)
+- [Common FAQs](https://docs.drdroid.io/agent/common-faqs.md): Frequently asked questions about DroidAgent and its capabilities
+- [Product Updates](https://docs.drdroid.io/changelog.md): New updates and improvements
+- [Data Types](https://docs.drdroid.io/getting-started/concepts.md): This document explains the data types present in Dr Droid which can be configured to setup the agent.
+- [Deployment Models](https://docs.drdroid.io/getting-started/deployment-models.md)
+- [DrDroid MCP Server](https://docs.drdroid.io/getting-started/drdroid-mcp-server.md): Connect your AI tools to DrDroid via the Model Context Protocol
+- [Introduction](https://docs.drdroid.io/getting-started/introduction.md)
+- [Quickstart](https://docs.drdroid.io/getting-started/quickstart.md)
+- [Self-Hosted Integrations](https://docs.drdroid.io/getting-started/self-hosted.md): DrDroid supports integration to data sources that are behind your VPC.
+- [Amazon EKS](https://docs.drdroid.io/integrations/amazon-eks.md)
+- [ArgoCD Integration](https://docs.drdroid.io/integrations/argocd-integration.md): This document will help you integrate ArgoCD into DrDroid to enable querying of recent deployments and take remediation actions such as rollbacks.
+- [AWS Cloudwatch](https://docs.drdroid.io/integrations/aws-cloudwatch-access.md)
+- [Azure](https://docs.drdroid.io/integrations/azure.md)
+- [Azure Log Analytics](https://docs.drdroid.io/integrations/azure-cloud-log-analytics.md)
+- [Azure K8s Service (AKS)](https://docs.drdroid.io/integrations/azure-k8s-service-aks.md)
+- [Bash Commands](https://docs.drdroid.io/integrations/bash-commands.md)
+- [BigQuery](https://docs.drdroid.io/integrations/bigquery.md): Connect DrDroid to Google BigQuery so DroidAgent can run SQL queries during investigations.
+- [Clickhouse](https://docs.drdroid.io/integrations/clickhouse-database.md): Connecting to Clickhousedb
+- [Confluence Integration](https://docs.drdroid.io/integrations/confluence.md)
+- [Coralogix](https://docs.drdroid.io/integrations/coralogix.md): Connect your Coralogix account to DrDroid for log analysis and monitoring
+- [Query Existing Grafana Data Sources](https://docs.drdroid.io/integrations/custom-promql-query.md): To connect your Grafana account to Playbooks, the step vary basis the version of Grafana that you are using.
+- [Datadog](https://docs.drdroid.io/integrations/datadog-access.md)
+- [Elastic Search](https://docs.drdroid.io/integrations/elastic-search.md)
+- [Email](https://docs.drdroid.io/integrations/email.md)
+- [Google Cloud Platform (GCP)](https://docs.drdroid.io/integrations/gcp.md)
+- [Github Actions](https://docs.drdroid.io/integrations/github-actions.md): Query Github actions
+- [Github](https://docs.drdroid.io/integrations/github-repository.md): Using the Github connector, you can:
+- [Google Cloud GKE](https://docs.drdroid.io/integrations/google-cloud-gke.md)
+- [Google Cloud Metrics & Logs](https://docs.drdroid.io/integrations/google-cloud-metrics-and-logs.md): Step 1: Create a Service Account
+- [Grafana](https://docs.drdroid.io/integrations/grafana.md): You can connect your account to your Grafana instance:
+- [Grafana Loki Logs](https://docs.drdroid.io/integrations/grafana-loki-logs.md): Loki is an Open Source Timeseries Database supported by Grafana.
+- [Overview](https://docs.drdroid.io/integrations/integrations.md)
+- [Jenkins](https://docs.drdroid.io/integrations/jenkins.md): Connect DrDroid to Jenkins to inspect builds and jobs during investigations.
+- [Jira](https://docs.drdroid.io/integrations/jira.md)
+- [Kubernetes](https://docs.drdroid.io/integrations/kubernetes.md): This document highlights different ways you can integrate your k8s cluster to DrDroid.
+- [MCP Server](https://docs.drdroid.io/integrations/mcp-server.md): Connect to a custom MCP (Model Context Protocol) server to extend DrDroid's capabilities with your own tools and data sources.
+- [Query Grafana Mimir](https://docs.drdroid.io/integrations/mimir.md)
+- [Mongo Database (Atlas)](https://docs.drdroid.io/integrations/mongo-database-atlas.md): This document outlines how to connect your MongoDB (Atlas) to DrDroid to query it from playbooks and investigations.
+- [MS Teams](https://docs.drdroid.io/integrations/ms-teams.md): You can send notifications to MS Teams using their "connectors".
+- [New Relic](https://docs.drdroid.io/integrations/new-relic-access.md): To access your New Relic metrics and alerts data, you need to follow the below mentioned steps:
+- [OpenSearch](https://docs.drdroid.io/integrations/open-search.md): Connect DrDroid to your OpenSearch cluster for log search during investigations.
+- [Opsgenie integration](https://docs.drdroid.io/integrations/opsgenie.md)
+- [PagerDuty integration](https://docs.drdroid.io/integrations/pagerduty.md)
+- [PostgreSQL Database](https://docs.drdroid.io/integrations/postgresql-database.md)
+- [Posthog](https://docs.drdroid.io/integrations/posthog.md): Steps to integrate DrDroid with Posthog.
+- [Prometheus](https://docs.drdroid.io/integrations/prometheus-raw-promql.md): Context: You can refer to this guide if you are looking to only add raw PromQL queries. If you have existing Grafana dashboards & configurations powered with a Prometheus source, directly import them into Playbooks along with it's configurations and filters using our .
+- [Overview](https://docs.drdroid.io/integrations/remote-server-commands.md): Run terminal commands from UI using DrDroid
+- [Rootly](https://docs.drdroid.io/integrations/rootly.md)
+- [Sentry Integration](https://docs.drdroid.io/integrations/sentry-access.md): Popular Error Tracking & Monitoring Software
+- [Self-managed k8s cluster](https://docs.drdroid.io/integrations/service-account-token.md)
+- [Signoz](https://docs.drdroid.io/integrations/signoz.md): Signoz can be integrated into the platform through the ClickhouseDB integration.
+- [Custom Slack App](https://docs.drdroid.io/integrations/slack-alerts.md): If you cannot install DrDroid provided Slack App, you can create your own custom Slack App too. Here are the steps for the same:
+- [Slack App Integration](https://docs.drdroid.io/integrations/slack-alerts-channel-access.md)
+- [SQL Databases](https://docs.drdroid.io/integrations/sql-databases.md)
+- [VictoriaLogs](https://docs.drdroid.io/integrations/victoria-logs.md): VictoriaLogs can be integrated with Doctor Droid using the host and login credentials.
+- [Zenduty](https://docs.drdroid.io/integrations/zenduty.md)
+- [Alerts Inbox](https://docs.drdroid.io/monitor/alerts-inbox.md)
+- [Webhook Alerts](https://docs.drdroid.io/monitor/webhook-alerts.md)
+- [Doctor Droid Projects](https://docs.drdroid.io/open-source/open-source.md)
+- [Build Your Own AI Debugging Agent](https://docs.drdroid.io/open-source/sre_ai_assistant.md): Use Doctor Droid' open source toolkit to go live in 30 minutes
+- [Audit](https://docs.drdroid.io/policies/audit.md): Export task execution information for any users for auditing purposes
+- [Source Code Security](https://docs.drdroid.io/policies/code-security.md): This document highlights how DrDroid handles source code securely.
+- [Data Retention](https://docs.drdroid.io/policies/data-handling.md): At , we prioritize the security, privacy, and control of our users’ data. This  outlines our commitment to ensuring that customers have full flexibility over their data retention while maintaining compliance with industry best practices.
+- [Privacy Policy](https://docs.drdroid.io/policies/privacy-policy.md): Deep Sea Tech Inc. (together with its subsidiaries and affiliates – “DrDroid”, "Ringwraith Tech Private Limited", “we”, “our” or “us”) puts great efforts in making sure that the personal data processed by us is safe and used properly, and that our data practices are properly communicated to our cust…
+- [Security & Privacy](https://docs.drdroid.io/policies/security-privacy.md): Using an AI agent is like adding a junior team member—security and privacy are just as critical. At DrDroid, we prioritize making the experience both . Here’s how we ensure it:
+- [Terms And Conditions](https://docs.drdroid.io/policies/terms-of-use.md)
+
+## OpenAPI Specs
+
+- [openapi](https://docs.drdroid.io/api-reference/openapi.json)

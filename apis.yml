@@ -1,8 +1,14 @@
 aid: doctor-droid
 name: Doctor Droid
-description: 'Doctor Droid is a company surfaced as a portfolio company of accel and added to the API
-  Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: >-
+  Doctor Droid (DrDroid), built by Deep Sea Tech Inc., is an AI-powered SRE and on-call agent that
+  builds a knowledge graph of your technology stack — cloud, code, and telemetry — to accelerate
+  incident response and root-cause analysis. DroidAgent runs automated investigations from the
+  dashboard, from Slack, or through a hosted Model Context Protocol (MCP) server in tools like Cursor
+  and Claude Desktop, correlating alerts across observability sources (Datadog, Grafana, Prometheus,
+  CloudWatch, Sentry, New Relic, SigNoz and dozens more) and suggesting or executing remediation. The
+  platform ships open-source tooling including the PlayBooks runbook-automation engine and the
+  droidctx infrastructure-context CLI, and is SOC 2 Type II and ISO 27001 certified.
 url: https://raw.githubusercontent.com/api-evangelist/doctor-droid/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,18 +16,117 @@ x-backed-by:
 - accel
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://drdroid.io/drdroid-logo.svg
 tags:
 - Company
 - Ai
-apis: []
+- AIOps
+- SRE
+- Incident Response
+- On-Call
+- Observability
+- DevOps
+- Monitoring
+- MCP
+apis:
+- name: DrDroid Platform (MCP + Agent)
+  description: >-
+    The DrDroid platform surface — the hosted Model Context Protocol (MCP) server and DroidAgent
+    investigation API at aiops.drdroid.io, authenticated with a Bearer API key generated from the
+    dashboard (Settings > Proxy Tokens, API Keys & MCP).
+  humanURL: https://docs.drdroid.io
+  baseURL: https://aiops.drdroid.io
+  tags:
+  - AIOps
+  - MCP
+  - Incident Response
+  properties:
+  - type: Documentation
+    url: https://docs.drdroid.io
+  - type: GettingStarted
+    url: https://docs.drdroid.io/getting-started/quickstart
+  - type: MCPServer
+    url: https://docs.drdroid.io/getting-started/drdroid-mcp-server
+  - type: Authentication
+    url: authentication/doctor-droid-authentication.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: TrustCenter
+  url: security/doctor-droid-trust-center.yml
+- type: DomainSecurity
+  url: security/doctor-droid-domain-security.yml
 - type: Website
   url: https://drdroid.io/
+- type: DeveloperPortal
+  url: https://docs.drdroid.io
+- type: Documentation
+  url: https://docs.drdroid.io
+- type: GettingStarted
+  url: https://docs.drdroid.io/getting-started/quickstart
+- type: Blog
+  url: https://drdroid.io/blog
+- type: Pricing
+  url: https://drdroid.io/pricing
+- type: SignUp
+  url: https://aiops.drdroid.io/sign-in
+- type: Support
+  url: mailto:support@drdroid.io
+- type: HelpCenter
+  url: https://discord.gg/AQ3tusPtZn
+- type: GitHubOrganization
+  url: https://github.com/DrDroidLab
+- type: TermsOfService
+  url: https://docs.drdroid.io/policies/terms-of-use
+- type: PrivacyPolicy
+  url: https://docs.drdroid.io/policies/privacy-policy
+- type: Security
+  url: https://drdroid.io/security
+- type: Compliance
+  url: https://security.drdroid.io
+- type: ChangeLog
+  url: https://docs.drdroid.io/changelog
+- type: Webhooks
+  url: https://docs.drdroid.io/monitor/webhook-alerts
+- type: YouTube
+  url: https://www.youtube.com/@DrDroidDev
+- type: MCPServer
+  url: mcp/doctor-droid-mcp.yml
+- type: LLMsTxt
+  url: llms/doctor-droid-llms.txt
+- type: Authentication
+  url: authentication/doctor-droid-authentication.yml
+- type: WellKnown
+  url: well-known/doctor-droid-well-known.yml
+- type: Conformance
+  url: conformance/doctor-droid-conformance.yml
+- type: Packages
+  url: packages/doctor-droid-packages.yml
+- type: CLI
+  url: cli/doctor-droid-cli.yml
+- type: ChangeLog
+  url: changelog/doctor-droid-changelog.yml
+  name: DrDroid Changelog (artifact)
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

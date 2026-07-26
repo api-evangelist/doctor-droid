@@ -1,0 +1,40 @@
+generated: '2026-07-18'
+method: searched
+source: https://github.com/DrDroidLab
+note: >-
+  DrDroid does not publish a first-party API client SDK on npm/PyPI/etc.; its programmatic surface is
+  the hosted MCP server (see mcp/). These are the first-party open-source tools DrDroid publishes on
+  GitHub. Registry column is 'github' (source) except where a public package index is confirmed.
+packages:
+- language: python
+  registry: github
+  name: droidctx (context-builder)
+  url: https://github.com/DrDroidLab/context-builder
+  install: pipx install git+https://github.com/DrDroidLab/context-builder.git
+  official: true
+  role: cli
+- language: python
+  registry: github
+  name: PlayBooks
+  url: https://github.com/DrDroidLab/PlayBooks
+  install: git clone https://github.com/DrDroidLab/PlayBooks
+  official: true
+  role: runbook-automation-platform
+- language: python
+  registry: github
+  name: signoz-mcp-server
+  url: https://github.com/DrDroidLab/signoz-mcp-server
+  official: true
+  role: mcp-server
+- language: python
+  registry: github
+  name: metabase-mcp-server
+  url: https://github.com/DrDroidLab/metabase-mcp-server
+  official: true
+  role: mcp-server
+- language: python
+  registry: github
+  name: drdroid-debug-toolkit
+  url: https://github.com/DrDroidLab/drdroid-debug-toolkit
+  official: true
+  role: toolkit

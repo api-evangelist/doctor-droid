@@ -1,0 +1,33 @@
+generated: '2026-07-18'
+method: searched
+source: https://github.com/DrDroidLab/context-builder
+name: droidctx
+description: >-
+  droidctx (Context Builder) is DrDroid's first-party CLI that gathers infrastructure context for
+  coding agents (Claude Code / Cursor). It auto-detects credentials from local cloud CLIs, extracts
+  metadata from configured tools, and generates context files DroidAgent can consume.
+repository: https://github.com/DrDroidLab/context-builder
+install:
+- method: curl
+  command: curl -fsSL https://raw.githubusercontent.com/DrDroidLab/context-builder/main/install.sh | bash
+- method: pipx
+  command: pipx install git+https://github.com/DrDroidLab/context-builder.git
+- method: venv
+  command: python3 -m venv ~/.droidctx && ~/.droidctx/bin/pip install git+https://github.com/DrDroidLab/context-builder.git
+commands:
+- name: init
+  summary: Create folder structure and credentials template
+- name: detect
+  summary: Auto-detect credentials from local CLI tools (kubectl, aws, gcloud, az)
+- name: sync
+  summary: Extract metadata from configured tools and generate context files
+- name: check
+  summary: Validate credentials format and check for required CLI tools
+- name: list-connectors
+  summary: Display supported connector types and required fields
+- name: auto-sync
+  summary: Enable automatic periodic syncing (macOS/Linux)
+key_flow:
+- droidctx init
+- droidctx detect
+- droidctx sync

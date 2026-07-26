@@ -1,0 +1,37 @@
+generated: '2026-07-18'
+method: searched
+source: https://docs.drdroid.io/changelog
+docs: https://docs.drdroid.io/changelog
+scheme: dated
+entries:
+- date: '2025-05-23'
+  title: Enhanced Alert Investigation Panel
+  type: improvement
+  highlights:
+  - AI hypothesis visibility
+  - Tool-usage transparency displays
+- date: '2025-05-20'
+  title: Context Engine
+  type: addition
+  highlights:
+  - Automatic service-catalog mapping
+  - Infrastructure integration
+  - Observability tooling detection
+- date: '2025-05-10'
+  title: Onboarding improvements
+  type: improvement
+  highlights:
+  - Streamlined signup flow
+  - Slack integration
+  - Categorized integrations page
+  - Smarter agent investigations with adaptive time ranges
+- date: '2025-05-07'
+  title: Alerts Inbox v0
+  type: addition
+  highlights:
+  - Unified alert consolidation
+  - Auto-grouping of recurring alerts
+  - AI-generated remediation suggestions
+notes: >-
+  Recent window captured from the live changelog. The changelog is the source of truth; see
+  docs.drdroid.io/changelog for the full history.

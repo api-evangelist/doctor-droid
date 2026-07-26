@@ -1,0 +1,56 @@
+generated: '2026-07-18'
+method: searched
+source: probed /.well-known/ across drdroid.io, docs.drdroid.io, aiops.drdroid.io, security.drdroid.io
+hosts:
+- host: https://security.drdroid.io
+  documents:
+  - path: /.well-known/openid-configuration
+    status: 200
+    file: doctor-droid-openid-configuration.json
+    note: >-
+      OAuth/OIDC discovery for the SafeBase-hosted trust center MCP (issuer app.safebase.io/api/mcp).
+      security.drdroid.io is DrDroid's trust center (SafeBase); this metadata governs its MCP auth.
+  - path: /.well-known/oauth-authorization-server
+    status: 200
+    file: doctor-droid-oauth-authorization-server.json
+    note: RFC 8414 authorization-server metadata (same SafeBase trust-center issuer).
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+- host: https://drdroid.io
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+- host: https://docs.drdroid.io
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+- host: https://aiops.drdroid.io
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
