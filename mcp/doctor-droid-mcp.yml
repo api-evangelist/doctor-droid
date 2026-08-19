@@ -4,13 +4,12 @@ status: published
 source: https://docs.drdroid.io/getting-started/drdroid-mcp-server
 server:
   name: drdroid
-  transport: http          # Streamable HTTP (current MCP standard), stateless mode
+  transport: http
   url: https://aiops.drdroid.io/mcp/
   authentication:
     type: bearer
-    description: >-
-      Bearer token. Generate an API key from the DrDroid dashboard under
-      Settings > Proxy Tokens, API Keys & MCP and pass it in the Authorization header.
+    description: Bearer token. Generate an API key from the DrDroid dashboard under Settings > Proxy Tokens,
+      API Keys & MCP and pass it in the Authorization header.
     header: Authorization
   client_config_example:
     mcpServers:
@@ -22,7 +21,6 @@ server:
   - Claude Desktop
   - Cursor
   - Windsurf
-# Tool groups as documented on the MCP server page (exact per-tool identifiers not published verbatim).
 tool_groups:
 - category: read
   capabilities:
@@ -38,7 +36,13 @@ tool_groups:
   capabilities:
   - Read / write alert definitions
   - Read / write auto-investigation rules
-notes: >-
-  DrDroid also publishes open-source MCP servers for individual data sources under github.com/DrDroidLab
+notes: DrDroid also publishes open-source MCP servers for individual data sources under github.com/DrDroidLab
   (signoz-mcp-server, metabase-mcp-server, mcp-server-template); this artifact captures the first-party
   hosted DrDroid platform MCP server.
+deployment:
+  mode: remote
+  endpoint: https://aiops.drdroid.io/mcp/
+  verified: probed
+  probe: gated
+  checked: '2026-08-12'
+  source: catalog MCP census
