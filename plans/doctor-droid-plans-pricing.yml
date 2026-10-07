@@ -1,0 +1,49 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://drdroid.io/pricing
+sources:
+- https://drdroid.io/pricing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: tiered-subscription
+delivery:
+  delivery: managed+licensed
+  method: page
+  read: '2026-10-07'
+  evidence: Business self-hosted (from $2,999/mo) runs entirely inside your environment
+  managed_tier: Startup
+published: true
+note: Tiered plans with credit-based usage; self-hosting sold at higher price. Enterprise custom.
+plan_count: 4
+currency: USD
+plans:
+- name: Startup
+  price_text: $99 /mo
+  price: 99
+  currency: USD
+  period: month
+  unit: plan
+  included_quota: 99 investigation credits and a 14-day trial
+  overage: top-ups at $1 each
+- name: Business
+  price_text: from $999 /mo
+  price: 999
+  currency: USD
+  period: month
+  unit: plan
+  included_quota: Volume credits, fully managed by DrDroid
+- name: Business self-hosted
+  price_text: from $2,999/mo
+  price: 2999
+  currency: USD
+  period: month
+  unit: plan
+  included_quota: runs entirely inside your environment
+- name: Enterprise
+  price_text: Custom
+  period: none
+  included_quota: Volume credit pricing with license-based fees
