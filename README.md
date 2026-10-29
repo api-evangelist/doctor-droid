@@ -64,6 +64,111 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Doctor Droid is a company surfaced as a portfolio company of accel and added to the API Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the enrichment pipeline.
+Doctor Droid (DrDroid), built by Deep Sea Tech Inc., is an AI-powered SRE and on-call agent that builds a knowledge graph of your technology stack — cloud, code, and telemetry — to accelerate incident response and root-cause analysis. DroidAgent runs automated investigations from the dashboard, from Slack, or through a hosted Model Context Protocol (MCP) server in tools like Cursor and Claude Desktop, correlating alerts across observability sources (Datadog, Grafana, Prometheus, CloudWatch, Sentry, New Relic, SigNoz and dozens more) and suggesting or executing remediation. The platform ships open-source tooling including the PlayBooks runbook-automation engine and the droidctx infrastructure-context CLI, and is SOC 2 Type II and ISO 27001 certified.
 
-Backed by: accel — https://drdroid.io/
+**Areas:** Company · Artificial Intelligence · AIOps · SRE · Incident Response · On-Call · Observability · DevOps · Monitoring · MCP · Incident Management
+
+## Doctor Droid on APIs.io
+
+Everything profiled for Doctor Droid is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/doctor-droid/](https://apis.io/providers/doctor-droid/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [DrDroid Platform (MCP + Agent)](https://apis.io/apis/doctor-droid/drdroid-platform-mcp-agent/) — The DrDroid platform surface — the hosted Model Context Protocol (MCP) server and DroidAgent investigation API at aiops.drdroid.io, authenticated with a…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### MCP servers (2)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [drdroid](https://apis.io/servers/doctor-droid/drdroid/)
+- [drdroid-mcp-server](https://apis.io/servers/doctor-droid/drdroid-mcp-server/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Doctor Droid Authentication](https://apis.io/security/doctor-droid/doctor-droid-authentication/)
+- [Doctor Droid Domain Security](https://apis.io/security/doctor-droid/doctor-droid-domain-security/)
+- [Doctor Droid Trust Center](https://apis.io/security/doctor-droid/doctor-droid-trust-center/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Doctor Droid Plans Pricing](https://apis.io/plans/doctor-droid/doctor-droid-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://drdroid.io/)
+- [Documentation](https://docs.drdroid.io)
+- [Getting started](https://docs.drdroid.io/getting-started/quickstart)
+- [Pricing](https://drdroid.io/pricing)
+- [Sign up](https://aiops.drdroid.io/sign-in)
+- [Changelog](https://docs.drdroid.io/changelog)
+- [Blog](https://drdroid.io/blog)
+- [Security](https://drdroid.io/security)
+- [Compliance](https://security.drdroid.io)
+- [Terms of service](https://docs.drdroid.io/policies/terms-of-use)
+- [Privacy policy](https://docs.drdroid.io/policies/privacy-policy)
+- [GitHub](https://github.com/DrDroidLab)
+
+## API Evangelist rating
+
+**Kin Score 43.5** — developing · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 75.0 |
+| Contract quality | 0.0 |
+| Contract governance | 18.2 |
+| Operational transparency | 36.8 |
+| Developer ergonomics | 57.1 |
+| Access clarity | 78.9 |
+
+**Agent readiness 27.6** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | verified |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | unknown |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 27.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/doctor-droid/](https://apis.io/providers/doctor-droid/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Doctor Droid: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/doctor-droid/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
